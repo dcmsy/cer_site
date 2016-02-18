@@ -11,10 +11,10 @@
 # 产品架构
 1.nginx + go（beego\docx\）+ mysql + redis
   
-  nginx -- 提供高效反向代理服务，负载均衡
-  go    -- 提供web服务
-  mysql -- 同步ERP相关数据
-  redis -- 作为数据缓存服务，提高响应速度，降低数据库压力
+  （1）nginx -- 提供高效反向代理服务，负载均衡；
+  （2）go    -- 提供web服务；
+  （3）mysql -- 同步ERP相关数据；
+  （4）redis -- 作为数据缓存服务，提高响应速度，降低数据库压力；
 
 2.前端 jquery\ajax\css\html
 
